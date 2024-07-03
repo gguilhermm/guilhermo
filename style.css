@@ -8,7 +8,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background-color: #f9f5e8; /* Cor de fundo com tonalidade alaranjada para amarelo */
+    color: #333; /* Cor de texto padrão */
 }
 
 .container {
@@ -18,17 +19,17 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ffa500; /* Cor de fundo laranja */
     color: #fff;
     padding: 10px 0;
+    text-align: center;
 }
 
 header h1 {
-    float: left;
+    margin: 0; /* Remove margens do título para evitar espaços indesejados */
 }
 
 nav ul {
-    float: right;
     list-style-type: none;
 }
 
@@ -38,30 +39,50 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #db930d;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffcd61;
+    color: #ffd700; /* Cor de texto do menu ao passar o mouse */
 }
 
 main {
     padding: 20px 0;
+    text-align: center; /* Centraliza o conteúdo principal */
 }
 
-section {
-    margin-bottom: 20px;
+.section {
+    padding: 60px 0; /* Espaçamento interno das seções */
 }
 
-section h2 {
-    color: #333;
-    margin-bottom: 10px;
+.section h2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título da seção */
+}
+
+.section p {
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-bottom: 20px; /* Espaçamento inferior do parágrafo */
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffa500; /* Cor de fundo laranja para botões */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Espaçamento superior dos botões */
+}
+
+.btn:hover {
+    background-color: #ffd700; /* Cor de fundo do botão ao passar o mouse */
 }
 
 footer {
-    background-color: #333;
+    background-color: #ffa500; /* Cor de fundo laranja para o rodapé */
     color: #fff;
     text-align: center;
     padding: 10px 0;
